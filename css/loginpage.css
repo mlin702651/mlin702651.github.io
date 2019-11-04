@@ -105,7 +105,7 @@ section{
     font-size: 17px;
     font-family: Segoe WP;
     margin:0;
-    margin-top: 6.09375vw;
+    margin-top: 7vw;
 }
 .logaccount{
    
@@ -115,19 +115,19 @@ section{
     font-family: Segoe WP;
     font-size: 30px;
     margin:0;
-    margin-bottom: 2.8vw;
+    margin-bottom: 3vw;
     margin-top: -10px;
-    text-shadow:#00000063 0em 0.1em 0.2em;
+    text-shadow:#a8555563 0em 0.1em 0.2em;
 }
 .username{
     color:#814646;
     font-size: 17px;
     font-family: Segoe WP;
-    width: 20.7vw;
+    width: 19vw;
     border:0;
-    border-bottom: solid 1px black;
+    border-bottom: solid 2px #814646cc;
     background-color: #FFD655;
-    margin-bottom:40px;
+    margin-bottom:3.5vw;
     outline:none;
     
 }
@@ -139,9 +139,9 @@ section{
     color:#814646;
     font-size: 17px;
     font-family: Segoe WP;
-    width: 20.7vw;
+    width: 19vw;
     border:0;
-    border-bottom: solid 1px black;
+    border-bottom: solid 2px #814646cc;
     background-color: #FFD655;
     margin-bottom:5px;
     outline: none;
@@ -165,13 +165,13 @@ section{
     margin-top: 3.554vw;
     margin-bottom: 0.9375vw;
     outline:none;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
 }
 .login:hover{
     background-color:#FFD655;
     color:white;
     border:solid 2px white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
     outline: none;
     
 }

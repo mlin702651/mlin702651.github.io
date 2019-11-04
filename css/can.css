@@ -149,7 +149,7 @@
 .line1{
     width:276px;
     height: 3px;
-    background-color:#652727;
+    background-color:#65272785;
 }
 .login{
     display:inline-block;
@@ -167,17 +167,17 @@
     background-color:white;
     transition-duration: 0.4s;
     z-index:3;
-    margin-top: 12px;
-    margin-bottom: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     outline: none;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px rgba(0,0,0,0.2);
 }
 .login:hover{
     background-color:#FFD655;
     color:white;
     border: solid 1px white;
     outline: none;
-    box-shadow: 0 5px 10px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
 }
 .login:active {
     background-color: white;
@@ -243,6 +243,7 @@
 .li:hover, .li:focus, .li:active {
     -webkit-transform: scale(1.2);
     transform: scale(1.2);
+    border-radius: 3px;
 
 }
 .firstblock{
@@ -269,7 +270,7 @@
 
     animation: fadeInLeft 2s linear ;
     animation-duration: 2s;
-  animation-delay: 0s;
+    animation-delay: 0s;
 
 }
 
@@ -305,14 +306,17 @@
     left:819px;
     top:1234px;
     transition-duration: 0.4s;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 4px 15px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    outline: none;
 
 }
 .buy1:hover{
     background-color:#FFD655;
     color:white;
     border: solid 1px white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    outline: none;
+
 }
 .buy1:active {
     background-color: white;
@@ -335,14 +339,16 @@
     left:362px;
     top:1729px;
     transition-duration: 0.4s;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    outline: none;
 
 }
 .buy2:hover{
     background-color:#FFD655;
     color:white;
     border: solid 1px white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    outline: none;
 }
 .buy2:active {
     background-color: white;
@@ -365,14 +371,15 @@
     top:2188px;
     background-color: white;
     transition-duration: 0.4s;
-    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    outline: none;
 }
 .buy3:hover{
     background-color:#FFD655;
     color:white;
     border: solid 1px white;
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    box-shadow: 0 2px 3px 0 rgba(0,0,0,0.2);
+    outline: none;
 }
 .buy3:active {
     background-color: white;
@@ -404,7 +411,7 @@
 .coo{
     position: absolute;
     top:1986px;
-    left:812px;
+    left:800px;
     color: #652727;
 
     animation: fadeInRight 2s linear ;
