@@ -1,0 +1,186 @@
+body{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+/* 背景動畫 */
+section{
+    width:100%;
+    height:100%;
+    background:radial-gradient(#FFEAA8,#FFF1C6) ;
+    z-index: -1;
+}
+.set{
+    position:absolute;
+    width:100%;
+    height:100%;
+    top: 0;
+    left: 0;
+}
+.set div{
+    position:absolute;
+    display: block;
+}
+.set div:nth-child(1){
+    left: 20%;
+    animation: animate 9s linear infinite;
+
+} 
+.set div:nth-child(2){
+    left: 50%;
+    animation: animate 9s linear infinite;
+    animation-delay: -4s;
+} 
+.set div:nth-child(3){
+    left: 30%;
+    animation: animate 10s linear infinite;
+    animation-delay: -2s;
+} 
+.set div:nth-child(4){
+    left: 10%;
+    animation: animate 10s linear infinite;
+    animation-delay: -4s;
+} 
+.set div:nth-child(5){
+    left: 70%;
+    animation: animate 10s linear infinite;
+    animation-delay: -2s;
+} 
+.set div:nth-child(6){
+    left: 90%;
+    animation: animate 7s linear infinite;
+    animation-delay: -3s;
+} 
+.set div:nth-child(7){
+    left: 78%;
+    animation: animate 9s linear infinite;
+    animation-delay: -4s;
+} 
+.set div:nth-child(8){
+    left: 35%;
+    animation: animate 9s linear infinite;
+} 
+.set div:nth-child(9){
+    left: 0%;
+    animation: animate 8s linear infinite;
+} 
+@keyframes animate{
+
+    0%
+    {
+        opacity: 0;
+        top:-10%;
+        transform: /*translateX(20px)*/ rotate(0deg);
+    }
+    10%{
+        opacity: 1;
+    }
+    20%{
+        transform: /*translateX(-20px)*/ rotate(45deg);
+    }
+    70%{
+        transform: /*translateX(20px)*/ rotate(270deg);
+    }
+    100%{
+        top:110%;
+    }
+}
+/* 背景動畫結束 */
+
+
+/* 輸入文字區塊 */
+.up{
+    position:absolute;
+    width:36vw;
+    height:34vw;
+    margin: 8.8vw 32vw ;
+    background-color: #FFD655;
+    border-radius: 5px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+.welcomeback{
+    color:#814646;
+    font-size: 17px;
+    font-family: Segoe WP;
+    margin:0;
+    margin-top: 6.09375vw;
+}
+.logaccount{
+   
+    position: relative;
+    color:white;
+    box-shadow: #000000;
+    font-family: Segoe WP;
+    font-size: 30px;
+    margin:0;
+    margin-bottom: 2.8vw;
+    margin-top: -10px;
+    text-shadow:#00000063 0em 0.1em 0.2em;
+}
+.username{
+    color:#814646;
+    font-size: 17px;
+    font-family: Segoe WP;
+    width: 20.7vw;
+    border:0;
+    border-bottom: solid 1px black;
+    background-color: #FFD655;
+    margin-bottom:40px;
+    outline:none;
+    
+}
+::-webkit-input-placeholder{
+    color:#81464679;
+
+}
+.password{
+    color:#814646;
+    font-size: 17px;
+    font-family: Segoe WP;
+    width: 20.7vw;
+    border:0;
+    border-bottom: solid 1px black;
+    background-color: #FFD655;
+    margin-bottom:5px;
+    outline: none;
+}
+.login{
+    display:inline-block;
+    position: relative;
+    align-self: center;
+    text-align: center;
+    font-family: Segoe WP;
+    font-size: 15px;
+    border: solid 2px transparent;
+    border-radius: 3px;
+    width: 114px;
+    height: 32px;
+    cursor: pointer;
+    color: #FFD655;
+    background-color:white;
+    transition-duration: 0.4s;
+    z-index:3;
+    margin-top: 3.554vw;
+    margin-bottom: 0.9375vw;
+    outline:none;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.login:hover{
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    outline: none;
+    
+}
+.login:active {
+    background-color:#FFD655;
+    box-shadow: 0 4px;
+    transform: translateY(4px);
+    background-color:#FFD655;
+    color:white;
+    border:solid 2px white;
+    outline: none;
+  }
