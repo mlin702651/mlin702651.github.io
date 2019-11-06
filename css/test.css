@@ -195,6 +195,27 @@ html, body {
     position:  absolute;
     z-index: 9;
     top: 155vw;
+    background-color: black;
+    /* background-image: url(../images/hot1background.png); */
+}
+.mask2{
+  width: 22.3vw;
+  height: 30.5vw;
+  border-radius: 3px;
+  margin-left: 3.4vw;
+  margin-right: 0.8vw;
+  position:absolute;
+  z-index: 9;
+  top: 155vw;
+  background-color: black;
+  color:#fff;
+  opacity: 0;
+}
+.masknumber2{
+  text-align: center;
+  font-size: 12vw;
+  font-family: Franklin Gothic Book;
+
 }
 .hot1{
     width: 46vw;
@@ -202,10 +223,28 @@ html, body {
     box-shadow: 3px 3px 7px rgba(0, 0, 0, 0.3);
     border-radius: 3px;
     margin-right: 0.8vw;
-    position:  absolute;
+    position:absolute;
     z-index: 9;
     top: 155vw;
     left: 26.84vw;
+}
+.mask1{
+  width: 46vw;
+  height: 30.5vw;
+  border-radius: 3px;
+  margin-right: 0.8vw;
+  position:absolute;
+  z-index: 9;
+  top: 155vw;
+  left: 26.84vw;
+  background-color: black;
+  color:#fff;
+  opacity: 0;
+}
+.masknumber1{
+  text-align: center;
+  font-size: 12vw;
+  font-family: Franklin Gothic Book;
 
 }
 .hot3{
@@ -217,6 +256,25 @@ html, body {
     z-index: 9;
     top: 155vw;
     left:74vw;
+
+}
+.mask3{
+  width: 22.3vw;
+    height: 30.5vw;
+  border-radius: 3px;
+  margin-right: 0.8vw;
+  position:absolute;
+  z-index: 9;
+  top: 155vw;
+  left:74vw;
+  background-color: black;
+  color:#fff;
+  opacity: 0;
+}
+.masknumber3{
+  text-align: center;
+  font-size: 12vw;
+  font-family: Franklin Gothic Book;
 
 }
 /*33333*/

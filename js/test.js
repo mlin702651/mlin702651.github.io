@@ -21,20 +21,32 @@ $('.boximg').hover(
       $(this).fadeTo(0,1);
   },
   );
-  // $(".btn1").click(function(){
-   
-  //   // $("html,body").scrollTop('20vw');
-  //     $('html,body').animate({
-  //        scrollTop: 500
-  //      }, 1000);
-              
-  // });
-  
-  // $(window).scroll(function() {
-  //   var top = $(document).scrollTop();
-  //   if (top == 100) alert(top);
-  //   });
-   
+  $('.mask1').hover(
+    function(){
+        $(this).fadeTo(300,0.5);
+    },
+    function(){
+        $(this).fadeTo(0,0);
+    },
+    );
+$('.mask2').hover(
+    function(){
+        $(this).fadeTo(300,0.5);
+    },
+    function(){
+        $(this).fadeTo(0,0);
+    },
+    );
+    $('.mask3').hover(
+        function(){
+            $(this).fadeTo(300,0.5);
+        },
+        function(){
+            $(this).fadeTo(0,0);
+        },
+        );
+
+
 });  //document結束
     
     
