@@ -68,7 +68,7 @@ html, body {
   color:#854B4B;
   position: absolute;
   top:14.28vw;
-  left:68.45vw; 
+  left:61.25vw; 
   font-family:Segoe WP;
   font-size: 1.56vw;
   font-style: normal;
@@ -79,7 +79,7 @@ html, body {
   color:#854B4B;
   position: absolute;
   top:14.28vw;
-  left:78.35vw; 
+  left:70.45vw; 
   font-family:Segoe WP;
   font-size: 1.56vw;
   font-style: normal;
@@ -125,7 +125,7 @@ html, body {
 }
 #gototopseller{
   position: relative;
-  color:rgba(133, 75, 75,0.5);
+  color:rgba(133, 75, 75,0.8);
   top:43vw;
   left:30vw; 
   font-family:Segoe WP;
