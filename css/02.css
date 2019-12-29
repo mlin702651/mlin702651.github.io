@@ -8,6 +8,21 @@ html{
     padding: 0px;
     margin: 0px;
 }
+body{
+    margin: 0;
+}
+.icon_favorites_back{
+  
+
+}
+.icon_favorites{
+    position: fixed;   
+    width: 7.6vw;
+    height: 6vw; 
+    top:7vw;
+    right: -1vw;
+}
+
 /* 左邊直的 */
 .left{
     width: 18.9vw;
@@ -40,7 +55,9 @@ html{
     font-size: 1.8VW;
     color:#854B4B ;
 }
-
+.itemdescription{
+    display: none;
+}
 /* 右上 */
 .b_up{
     display: flex;
@@ -81,7 +98,7 @@ html{
     border: 2px #DD5532 solid;
     border-radius: 3px;
     margin: 6vw 0.46vw 0.46vw 0;
-   
+
 }
 .shopee{
     width: 8.5vw;
@@ -204,7 +221,7 @@ input.heart{
     height:3.5vw;
     margin:2.8vw 0 0 2.3vw;
     outline: none;
-    
+
 }
 input.change{
     width:3.8vw;
@@ -213,7 +230,7 @@ input.change{
     outline: none;
 }
 
-  
+
 input.previouspage{
     width: 8.87vw;
     height:9.25vw;
@@ -255,7 +272,7 @@ footer{
     width: 2.3vw;
     height:2.3vw;
     border-radius: 3px;
-    margin: 2.34vw 1.8vw 2.34vw 68.2vw; 
+    margin: 2.34vw 1.8vw 2.34vw 68.2vw;
 }
 .ig_icon{
     background-color:#fffbf8;
@@ -296,3 +313,413 @@ footer{
     font-stretch: normal;
     letter-spacing: normal;
 }
+.footer_m{
+    display:none;
+}
+@media(max-width:768px){
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.icon_favorites{
+    width: 9.14vw;
+    height: 7.14vw;
+    right: -1vw;
+}
+.left{
+    width: 75.78vw;
+    height:41.14vw;
+    background-color:#FFD655 ;
+    border-radius: 3px;
+    display: flex;
+    margin: 12.5vw 0vw;
+    margin-bottom: 0;
+}
+.flex{
+    /* display: inline; */
+    display: flex;
+    /* justify-content: center; */
+    margin-top: 10vw;
+    align-items: center;
+    flex-direction: column;
+
+    margin-left: 5vw;
+    margin-right: 3vw;
+}
+.item{
+    width: 10vw;
+    height:10vw;
+    border-radius: 3px;
+    margin: 1vw 1.6vw 5.1vw 1.6vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.itemname{
+    margin: 0;
+    font-family:Taipei Sans TC Beta;
+    font-weight:bold;
+    font-size: 2.85VW;
+    color:#854B4B ;
+}
+.itemdescription{
+    display: flex;
+    color:#854B4B;
+    margin:  0;
+    font-family:Taipei Sans TC Beta;
+    font-size: 1.42vw;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 2.14vw;
+    font-weight: 300;
+    width: 29vw;
+    margin-top: 3vw;
+}
+/*第二排*/
+.la_background{
+    width: 23.56vw;
+    height:23.56vw;
+    margin: 3.38vw 2.21vw 3.38vw 0vw;
+}
+.la{
+    width: 23.56vw;
+    height:23.56vw;
+    margin: 0;
+}
+
+.shopee_background{
+    width: 23.56vw;
+    height:23.56vw;
+    margin: 3.38vw 2.21vw 3.38vw 0vw;
+    border: 0;
+}
+.shopee{
+    width: 23.56vw;
+    height:23.56vw;
+    margin: 0;
+}
+.yahoo_background{
+    width: 23.56vw;
+    height:23.56vw;
+    margin: 3.38vw 0vw 3.38vw 0vw;
+}
+.yahoo{
+    width: 23.56vw;
+    height:23.56vw;
+    margin: 0;
+}
+
+/*第三排*/
+.b_down{
+    display: flex;
+    padding: 0px;
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+}
+.moout{
+    width: 23.56vw;
+    height:23.56vw;
+    border: 2px #F21275 solid;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 3.5vw;
+}
+.mo{
+    width: 17.42vw;
+    height:12.89vw;
+    margin: 0;
+}
+.pchome_background{
+    width: 42.05vw;
+    height:24.34vw;
+    background-color: #FFEAA8;
+    border-radius: 3px;
+    margin: 0 0 3.5vw 2.21vw ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.pc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 24.6vw;
+    height:13.28vw;
+    margin: 0 ;
+
+}
+/*愛心按鈕*/
+.btnheart{
+    position: absolute;
+    top:40.59vw;
+    left:27.47vw;
+    width:6.1vw;
+    height:6.1vw;
+    border-radius: 3px;
+    border: 1px #854B4B solid;
+    margin-right: 0vw;
+    margin-top: 0vw;
+    outline: none;
+    background-color: transparent;
+}
+input.heart{
+    width:4.6vw;
+    height:4.2vw;
+    margin-top: 1vw;
+    margin-left: 0.8vw;
+    outline: none;
+    background-color: transparent;
+}
+input.change{
+    width:4.6vw;
+    height:4.2vw;
+    margin-top: 1vw;
+    margin-left: 0.8vw;
+    outline: none;
+}
+
+/*footer*/
+a{
+    text-decoration:none;
+}
+.footer_m{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    background:#FFD655;
+    width: 100vw;
+    height: 11.7vw;
+}
+.footer_user_icon{
+    width: 5.769vw;
+    height: 5.85vw;
+    margin-left: 3.3vw;
+}
+.footer_m_candy{
+    color:#854B4B;
+    font-family:Segoe WP;
+    font-size: 3.77VW;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-left: 6.7vw;
+}
+
+.footer_m_chocolate{
+    color:#854B4B;
+    font-family:Segoe WP;
+    font-size: 3.77VW;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-left: 6.7vw;
+
+}
+.footer_m_cookie{
+    color:#854B4B;
+    font-family:Segoe WP;
+    font-size: 3.77VW;
+    font-style: normal;
+    font-stretch: normal;
+    letter-spacing: normal;
+    margin-left: 6.7vw;
+
+}
+
+/*消失*/
+footer{
+    display: none;
+}
+.s_up{
+    display: none;
+}
+.previouspage{
+    display: none;
+}
+}
+
+
+@media(max-width:375px){
+    .icon_favorites{
+        width: 12.26vw;
+        height: 9.6vw;
+        right: -1vw;
+    }
+    .left{
+        width: 82.4vw;
+        height:82.4vw;
+        background-color:#FFD655 ;
+        border-radius: 3px;
+        display: flex;
+        margin: 20vw 0vw;
+        margin-bottom: 0;
+    }
+    .flex{
+        /* display: inline; */
+        display: flex;
+        /* justify-content: center; */
+        margin-top: 10vw;
+        align-items: center;
+        flex-direction: column;
+    
+        margin-left: 5vw;
+        margin-right: 3vw;
+    }
+    .item{
+        width: 64vw;
+        height:64vw;
+        border-radius: 3px;
+        margin: 1vw 1.6vw 5.1vw 1.6vw;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .itemname{
+        position: absolute;
+        top:9.86vw;
+        left: 33.3vw;
+        font-size: 6.666VW;
+        
+    }
+    
+    /*第二排*/
+    .la_background{
+        width: 39.46vw;
+        height:40vw;
+        margin: 6.13vw 3.73vw 4vw 0vw;
+    }
+    .la{
+        width: 39.46vw;
+        height:40vw;
+    }
+    
+    .shopee_background{
+        width: 39.46vw;
+        height:40vw;
+        margin: 6.13vw 0vw 4vw 0vw;
+        border: 0;
+    }
+    .shopee{
+        width: 39.46vw;
+        height:40vw;
+    }
+   
+    /*第三排*/
+   
+    .moout{
+        width: 38.5vw;
+        height:39vw;
+        margin: 2vw 3.73vw 8.9vw 0vw;
+    }
+    .mo{
+        width: 29vw;
+        height:21.6vw;
+    }
+    .pchome_background{
+        width: 39.46vw;
+        height:40vw;
+        background-color: #FFD655;
+        margin: 2vw 0vw 8.9vw 0vw;
+    }
+    .pc{
+        width: 31.9vw;
+        height:16.533vw;
+        margin: 0 ;
+    
+    }
+    /*04su.3按鈕*/
+    .btnheart{
+        position: absolute;
+        top:84vw;
+        left:71.4vw;
+        width:13.3vw;
+        height:13.3vw;
+        z-index: 2;
+    }
+    input.heart{
+        width:10.6vw;
+        height:10vw;
+        margin-top: 2vw;
+        margin-left: 1.3vw;
+    }
+    input.change{
+        width:10.6vw;
+        height:10vw;
+        margin-top: 2vw;
+        margin-left: 1.3vw;
+    }
+
+    /*footer*/
+    a{
+        text-decoration:none;
+    }
+    .footer_m{
+        display: flex;
+        align-items: center;
+        /* justify-content: center; */
+        background:#FFD655;
+        width: 100vw;
+        height: 12.5vw;
+    }
+    .footer_user_icon{
+        width: 5.769vw;
+        height: 5.85vw;
+        margin-left: 3.3vw;
+    }
+    .footer_m_candy{
+        color:#854B4B;
+        font-family:Segoe WP;
+        font-size: 3.77VW;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        margin-left: 6.7vw;
+    }
+    
+    .footer_m_chocolate{
+        color:#854B4B;
+        font-family:Segoe WP;
+        font-size: 3.77VW;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        margin-left: 6.7vw;
+    
+    }
+    .footer_m_cookie{
+        color:#854B4B;
+        font-family:Segoe WP;
+        font-size: 3.77VW;
+        font-style: normal;
+        font-stretch: normal;
+        letter-spacing: normal;
+        margin-left: 6.7vw;
+    
+    }
+    
+    /*消失*/
+    footer{
+        display: none;
+    }
+    .s_up{
+        display: none;
+    }
+    .previouspage{
+        display: none;
+    }
+    .itemdescription{
+        display: none;
+    }
+    .yahoo_background{
+        display: none;
+    }
+    
+
+    }

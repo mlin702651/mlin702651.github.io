@@ -25,15 +25,22 @@
 
 <body onload="randomImg();">
     <div class="main">
+        
         <div class="left">
             <div class="flex">
                 <!-- <div class="linebeforeword"></div> -->
                 <p class="itemname">森永牛奶糖</p>
+                <p class="itemdescription">森永牛奶糖是牛奶糖中的第一品
+                    牌， 獨一無二的香濃甜味是無法取代的好滋味
+                    !特有的奶香與焦糖香超越了世代，成為大人小
+                    孩都無法忘懷的經典，吃過一次你會永遠愛上它。</p>
             </div>
             <!-- 自動更換圖片 -->
             <div class="flexslider">
                 <ul class="slides">
-                    <li><img src="./images/001.jpg" width="200" height="200"></li>
+                    <li>
+                        <img src="./images/001.jpg" width="200" height="200">
+                    </li>
                     <li><img src="./images/002.jpg" width="10vw" height="10vw"></li>
                     <li><img src="./images/003.jpg" width="10vw" height="10vw"></li>
                 </ul>
@@ -43,9 +50,25 @@
         <div class="right">
             <div class="b_up">
                 <a href="https://www.rakuten.com.tw/search/%E6%A3%AE%E6%B0%B8%E7%89%9B%E5%A5%B6%E7%B3%96/"
-                    class="la_background"><img src="./images/la_icon.png" class="la"></a>
+                    class="la_background">
+                    <!-- <img src="./images/la_icon.png" class="la"> -->
+                    <picture>
+                        <source srcset="./images/la_icon.png" media="(min-width: 769px)">
+                        <source srcset="./images/m/btn_la.png" media="(min-width: 321px)">
+                        <source srcset="./images/s/btn_la.png" media="(max-width: 321px)">
+                        <img class="la" alt="My default image">
+                    </picture>
+                </a>
                 <a href="https://shopee.tw/search?keyword=%E6%A3%AE%E6%B0%B8%E7%89%9B%E5%A5%B6%E7%B3%96"
-                    class="shopee_background"><img src="./images/shopee.png" class="shopee"></a>
+                    class="shopee_background">
+                    <!-- <img src="./images/m/btn_shopee.png" class="shopee"> -->
+                    <picture>
+                        <source srcset="./images/shopee.png" media="(min-width: 769px)">
+                        <source srcset="./images/m/btn_shopee.png" media="(min-width: 321px)">
+                        <source srcset="./images/s/btn_shopee.png" media="(max-width: 321px)">
+                        <img class="shopee" alt="My default image">
+                    </picture>
+                </a>
                 <a href="https://tw.bid.yahoo.com/search/auction/product?qt=product&kw=%E6%A3%AE%E6%B0%B8%E7%89%9B%E5%A5%B6%E7%B3%96&p=%E6%A3%AE%E6%B0%B8%E7%89%9B%E5%A5%B6%E7%B3%96"
                     class="yahoo_background"><img src="./images/yahoo.png" class="yahoo"></a>
             </div>
@@ -82,6 +105,15 @@
         <p class="ABOUT">ABOUT</p>
         <p class="HELP">HELP</p>
     </footer>
+    <div class="footer_m">
+        <img src="images/m/user_icon.png" class="footer_user_icon">
+        <a href="./01.html"><p class="footer_m_candy">candy</p></a>
+        <a href="./01.html"><p class="footer_m_chocolate">chocolate</p></a>
+        <a href="./01.html"><p class="footer_m_cookie">cookie</p></a>
+    </div>
+    <div class="icon_favorites_back">
+        <img class="icon_favorites" src="images/icon_favorites_l.png">
+    </div>
 </body>
 
 </html>

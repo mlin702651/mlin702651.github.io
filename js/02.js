@@ -47,7 +47,6 @@ $(function() {
     $(".flexslider").flexslider({
         slideshowSpeed: 3000, //展示时间间隔ms
         animationSpeed: 200, //滚动时间ms
-        
     });
 }); 
 
