@@ -396,7 +396,7 @@ footer{
   padding: 0px;
   margin: 0px;
   position: relative;
-  top:263vw;
+  top:335vw;
   z-index: 1;
 }
 .fb_icon{
@@ -455,16 +455,25 @@ footer{
 }
 .rwd_M{
   display: block;
+  padding-bottom: 20vw;
 }
 .M_background{
   position: absolute;
   z-index:-1;
 }
 .M_bg1{
+  position: absolute;
   width: 100vw;
   height: 82.4vw;
   background-color: #FFD655;
-  top:79.5vw;
+  top:70vw;
+  z-index: -1;
+}
+.M_bg2{
+  position: absolute;
+  width: 100vw;
+  top:110vw;
+
 }
 .M_name{
 color:#854B4B;
@@ -513,8 +522,130 @@ height: 4.55vw;
 display: flex;
 align-items: center;
 justify-content: center;
+flex-direction:column;
+}
+.M_topsellers{
+  color: #854B4B;
+  font-size: 5vw;
+  font-family: Segoe WP;
+  
+}
+.M_po2{
+  margin-top: -3vw;
 }
 
 /*熱門商品*/
+.M_hot{
+  display: flex;
+  align-items: flex-end;
+  margin-top: 20vw;
+}
+.M_01{
+  display: flex;
+  align-items: center;
+  flex-direction:column;
+  margin-left: -9vw;
+  z-index: 4;
+}
+
+.M_02{
+  display: flex;
+  align-items: flex-start;
+  flex-direction:column;
+  margin-left: 2vw;
+  z-index: 3;
+  opacity: 0.8;
+}
+.M_03{
+  display: flex;
+  align-items: flex-end;
+  flex-direction:column;
+  margin-left: -10vw;
+  z-index: 2;
+  opacity: 0.8;
+}
+.M_hot_nu{
+  display: flex;
+  color: #854B4B;
+  font-size: 11.71vw;
+  font-family: Taipei Sans TC Beta;
+  font-weight: bold;
+  margin: 0;
+  margin-bottom: -5vw;
+  z-index: 5;
+}
+.M_02_img{
+  height: 30vw;
+}
+.M_03_img{
+  height: 30vw;
+}
+/*下面商品*/
+.M_item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 4vw;
+}
+.M_item_tital{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 30vw;
+  color: #854B4B;
+  font-family: Taipei Sans TC Beta;
+  font-weight: 300;
+  font-size: 3vw;
+}
+.M_item_row{
+  display: flex;
+ 
+  margin-top:5vw ;
+}
+
+.M_item_boxright{
+  margin-left: 5vw;
+}
+.M_item_info{
+  color: #854B4B;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 16.14vw;
+  height: 6.5vw;
+  margin-left: 2.5vw;
+  margin-top: -10.5vw;
+
+}
+footer{
+  display: none;
+}
+.M_bar{
+  position: fixed;
+  background-color: #FFD655;
+  width: 100vw;
+  height: 13.71vw;
+  z-index: 7;
+  top:120vw;
+  display: flex;
+  align-items: center;
+}
+.M_user_icon{
+  margin-left: 4vw;
+}
+.M_bar_word{
+  color: #854B4B;
+  font-size: 4vw;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-left: 5vw;
+}
+.M_gototop_img{
+  margin-left: 40vw;
+  margin-top: -12vw;
+  background-image:url(/images/m/01/Group\ 175.png);
+  width: 62px;
+  height: 62px;
+  border-color: transparent;
+  background-color:transparent;
+}
 
 }

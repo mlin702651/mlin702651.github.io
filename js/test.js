@@ -13,6 +13,27 @@ $(Document).ready(function(){
         }
     );
 }); 
+$(function(){
+    $('#BackTop').click(function(){ 
+        $('html,body').animate({scrollTop:0}, 333);
+    });
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 700 ){
+            $('#BackTop').fadeIn(222);
+        } else {
+            $('#BackTop').stop().fadeOut(222);
+        }
+    }).scroll();
+});
+$(function(){
+    $(window).scroll(function() {
+        if ( $(this).scrollTop() > 230 ){
+            $('.M_bar').fadeIn(100);
+        } else {
+            $('.M_bar').stop().fadeOut(100);
+        }
+    }).scroll();
+});
 $('.boximg').hover(
   function(){
       $(this).fadeTo(300,0.5);
