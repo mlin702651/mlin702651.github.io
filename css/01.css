@@ -538,6 +538,14 @@ flex-direction:column;
 .M_hot{
   display: flex;
   align-items: flex-end;
+  margin-top: 5vw;
+}
+.M_hot_tital{
+  display: flex;
+  color: #854B4B;
+  font-size: 4vw;
+  font-family: Taipei Sans TC Beta;
+  margin-left: 5vw;
   margin-top: 20vw;
 }
 .M_01{
@@ -639,13 +647,143 @@ footer{
   margin-left: 5vw;
 }
 .M_gototop_img{
-  margin-left: 40vw;
-  margin-top: -12vw;
+  margin-left: 38vw;
+  margin-top: -13vw;
   background-image:url(/images/m/01/Group\ 175.png);
   width: 62px;
   height: 62px;
   border-color: transparent;
   background-color:transparent;
 }
-
+}
+@media(max-width:375px){
+  
+  .rwd_M{
+    display: block;
+    padding-bottom: 20vw;
+  }
+  .M_bg1{
+    display: none;
+  }
+  .M_bg2{
+    position: absolute;
+    width: 100vw;
+    top:20vw;
+  }
+  .M_name{
+    color:#854B4B;
+    margin: 8vw 0 0 8vw;
+    font-family:Bodoni MT;
+    font-size:10vw;
+  }
+  .M_list{
+    display: flex;
+    margin: 2vw 0 3vw 8vw;
+  }
+  .M_chocolate{
+    font-family:Segoe WP;
+    font-size: 4.5vw;
+    margin-left: 4vw;
+  }
+  .M_cookie{
+    font-family:Segoe WP;
+    font-size: 4.5vw;
+    margin-left: 4vw;
+  }
+  .M_user_icon_top{
+    width: 6.2vw;
+    height: 6.2vw; 
+  }
+  .M_heart_icon_top{
+    width: 6vw;
+    height: 6.2vw;
+    margin-left: 2vw;
+  }
+  .M_img_top{
+    display: none;
+  }
+  .M_topsellers{
+    display: none;
+  }
+  .M_po2{
+    display: none;
+  }
+  
+  /*熱門商品*/
+  .M_hot{
+    margin-top: 3vw;
+  }
+  .M_hot_tital{
+    font-size: 4vw;
+    margin-left: 9vw;
+    margin-top: 10vw;
+  }
+  .M_01{
+    margin-left: -10vw;
+  }
+  .M_02{
+    margin-left: 9vw;
+  }
+  .M_03{
+    margin-left: -9vw;
+  }
+  .M_01_img{
+    height: 40vw;
+  }
+  .M_02_img{
+    height: 27vw;
+  }
+  .M_03_img{
+    height: 27vw;
+  }
+  /*下面商品*/
+  .M_item{
+    margin-top: 4vw;
+  }
+  .M_item_tital{
+    margin-top: 30vw;
+    font-size: 3vw;
+  }
+  .M_item_row{
+    margin-top:1vw ;
+  }
+  .M_item_img{
+    height: 48.8vw;
+  }
+  .M_item_boxright{
+    margin-left: 5vw;
+  }
+  .M_item_info{
+    width: 32.5vw;
+    height: 13.6vw;
+    margin-left: 2.5vw;
+    margin-top: -12vw;
+    font-size: 3vw;
+  }
+  footer{
+    display: none;
+  }
+  .M_bar{
+    top:203vw;
+  }
+  .M_user_icon{
+    margin-left: 4vw;
+    width: 6.8vw;
+  }
+  .M_BackTop{
+    display: none;
+  }
+  .M_gototop_img{
+   margin-left: 33vw;
+  }
+  .S_gototop_btn{
+    display: flex;
+    border-color: transparent;
+    background-color:transparent;
+    margin-left: 33vw;
+    margin-top: -13vw;
+   }
+   .S_gototop_img{
+    width: 10vw;
+   }
 }

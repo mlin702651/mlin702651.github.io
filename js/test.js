@@ -14,14 +14,14 @@ $(Document).ready(function(){
     );
 }); 
 $(function(){
-    $('#BackTop').click(function(){ 
+    $('#M_BackTop').click(function(){ 
         $('html,body').animate({scrollTop:0}, 333);
     });
     $(window).scroll(function() {
         if ( $(this).scrollTop() > 700 ){
-            $('#BackTop').fadeIn(222);
+            $('#M_BackTop').fadeIn(222);
         } else {
-            $('#BackTop').stop().fadeOut(222);
+            $('#M_BackTop').stop().fadeOut(222);
         }
     }).scroll();
 });
@@ -66,7 +66,6 @@ $('.mask2').hover(
             $(this).fadeTo(0,0);
         },
         );
-
 
 });  //document結束
     
