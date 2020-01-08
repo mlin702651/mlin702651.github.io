@@ -98,7 +98,6 @@ body{
     border: 2px #DD5532 solid;
     border-radius: 3px;
     margin: 6vw 0.46vw 0.46vw 0;
-
 }
 .shopee{
     width: 8.5vw;
@@ -489,12 +488,14 @@ a{
     text-decoration:none;
 }
 .footer_m{
+    position: absolute;
     display: flex;
     align-items: center;
     /* justify-content: center; */
     background:#FFD655;
     width: 100vw;
     height: 11.7vw;
+    top:122vw;
 }
 .footer_user_icon{
     width: 5.769vw;
@@ -667,6 +668,7 @@ footer{
         background:#FFD655;
         width: 100vw;
         height: 12.5vw;
+        top:205vw;
     }
     .footer_user_icon{
         width: 5.769vw;
