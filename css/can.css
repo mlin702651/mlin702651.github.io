@@ -47,6 +47,11 @@
     position: relative;
     margin-left: 110px;         
 }
+
+body{
+    margin: 0;
+    padding: 0;
+}
 .webbg{
     
     position: absolute;
@@ -128,7 +133,9 @@
     top: 1926px;
     background-color: #FFEAA8
 }
-
+.padBp{
+    display: none;
+}
 .tit{
     width: 207px;
     font-family: Bodoni MT;
@@ -404,9 +411,10 @@
     top:1521px;
     left:319px;
     color: #652727;
-    animation: fadeInLeftt 2s linear ;
+    animation: fadeInLeft 2s linear ;
     animation-duration: 2s;
     animation-delay: 0s;
+
 }
 .coo{
     position: absolute;
@@ -502,7 +510,6 @@
 .chocolatebox{
     position: absolute;
     color: #652727;
-    
     top:1574px;
     left:370px;
     text-align: center;
@@ -571,4 +578,336 @@ footer{
     font-style: normal;
     font-stretch: normal;
     letter-spacing: normal;
+}
+
+@media screen and (max-width:768px){
+
+.all{
+    margin-left:0;
+   
+}
+.webbg{
+    
+    width: 768px;
+    height: 2400px;
+}
+.yellow1{
+    width:768px;
+    height:240px;
+    margin-left:0;
+    top:716px;
+}
+.yellow2{
+    width:510px;
+    height: 238px;
+    top:804px;
+    z-index: -2;
+}
+.yellow3{
+    width: 305px;
+    height: 305px;
+    left:78px;
+    top:1132px;
+}
+.yellow4{
+    width: 305px;
+    height: 305px;
+    left:385px;
+    top:1530px;
+}
+.yellow5{
+    display: none;
+}
+.yellow6{
+    width: 305px;
+    height: 305px;
+    left:78px;
+}
+.tit{
+    font-size: 70px;
+    width:500px;
+    line-height: 80px;
+    top:0;
+
+}
+.padBp{
+    display: initial;
+}
+.pic{
+    display: none;
+}
+p{
+    margin-block-end: 0.05em;
+}
+.secondblock{
+    width:600px;
+    left:90px;
+    top:301px;
+    z-index: -1;
+}
+.firstblock{
+    width:600px;
+    margin:auto 0;
+    left:100px;
+    top:40px;
+}
+.login{
+    margin-top: 5px;
+}
+.icon{
+    display: none;
+}
+.line1{
+    display: none;
+}
+
+.G1{
+    left:0;
+}
+.can{
+    animation: unset;
+    left:500px;
+    top:1176px;
+}
+.candybox{
+    left:505px;
+    top:1225px;
+
+
+}
+#c1p{
+    width:260px;
+}
+#c2p{
+    width:260px;
+}
+#c3p{
+    width:260px;
+    animation: none;
+}
+.mar{
+    width: 260px;
+    animation: none;
+}
+.buy1{
+    left:510px;
+    top: 1380px;
+}
+.buy3{
+    left:516px;
+    top: 2190px;
+
+}
+.cho{
+    left:146px;
+    animation: none;
+    top:1550px;
+}
+.chocolatebox{
+    top:1600px;
+    left:200px;
+}
+.buy2{
+    left:190px;
+    top:1750px;
+}
+.choco{
+    width:260px;
+    animation: none;
+    
+}
+.cookie{
+    width:260px;
+    animation: unset;
+
+}
+.coo{
+    left:505px;
+    top:1970px;
+    animation: none;
+}
+.cookiebox{
+    left:530px;
+    top:2020px;
+}
+.ABOUT{
+    margin:  2.1vw 1.8vw 2.34vw 0;
+}
+.HEIP{
+    margin:  2.1vw 1.8vw 2.34vw 0;
+}
+.buy3{
+    left:523px;
+    top:2160px;
+}
+footer{
+    top:2340px;
+    width: 768px;
+    height: 8.5vw;
+}
+.fb_icon{
+    width: 3.5vw;
+    height:3.5vw;
+    margin: 2.340vw 2.2vw 2.34vw 58.2vw; 
+}
+.ig_icon{
+    width: 3.5vw;
+    height:3.5vw;
+    margin: 2.34vw 2.2vw 2.34vw 0;
+}
+.line_icon{
+    width: 3.5vw;
+    height:3.5vw;
+    margin: 2.34vw 2.2vw 2.34vw 0;
+}
+.line{
+    width: 4px;
+    height: 3.5vw;
+    margin: 2.34vw 1.8vw 2.34vw 0;
+    opacity: 0.5;
+}
+.ABOUT{
+    margin:  2vw 2.5vw 2.34vw 0;
+    font-size: 25px;
+}
+.HEIP{
+    margin:  2vw 1.8vw 2.34vw 0;
+    font-size: 25px;
+}
+
+}
+
+@media screen and (max-width:375px){
+.webbg{
+    width: 375px;
+    height:1230px;
+    margin:0;
+}
+.yellow1{
+    width: 375px;
+    height: 204px;
+    top:467px;
+}
+.yellow2{
+    width:305px;
+    height: 98px;
+    top:634px;
+    
+}
+.yellow3{
+    width: 212px;
+    height: 212px;
+    left:82px;
+    top:842px;
+}
+.yellow4{
+display: none;
+}
+
+.yellow6{
+display:none;
+}
+.tit{
+    font-size: 44px;
+    width:300px;
+    line-height: 50px;
+    
+
+}
+.firstblock{
+    left:34px;
+    width:300px;
+    top:52px;
+
+}
+.padBp{
+    width: 311px;
+    margin-left: 32px;
+}
+.secondblock{
+    width:375px;
+    left:0;
+    top:219px;
+    z-index: -1;
+}
+.login{
+    top:271px;
+}
+.icon{
+    display: initial;
+    margin-top:270px;
+}
+.can{
+    left:43px;
+    font-weight: normal;
+    top:1076px;
+    font-size: 20px;
+}
+.candybox{
+    display: none;
+}
+.cho{
+    left:120px;
+    top:1076px;
+    font-weight: normal;
+    margin-left:10px ;
+    margin-right:10px ;
+    font-size: 20px;
+}
+.mar{
+    width: 182px;
+    padding: 15px;
+}
+#c1p{
+    width:182px;
+    padding: 15px;
+}
+#c2p{
+    width:182px;
+    padding: 15px;
+}
+#c3p{
+    width:182px;
+    padding: 15px;
+    z-index: 10;
+}
+.coo{
+    left:270px;
+    top:1076px;
+    font-weight: normal;
+    font-size: 20px;
+}
+.buy1{
+    left:155px;
+    top:1030px;
+    z-index: 11;
+}
+.buy2{
+    display: none;
+}
+.buy3{
+    display: none;
+}
+.chocolatebox{
+    display: none;
+    
+}
+.cookiebox{
+    display: none;
+}
+
+footer{
+    display: none;
+}
+
+
+
+
+
+
+
+
+
+
+
 }
